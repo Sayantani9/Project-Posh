@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>POSH — Luxury Clothing Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">POSH</div>
+    <nav>
+      <a href="#collection">Collection</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="https://images.unsplash.com/photo-1520975918319-8d3f963b5a02" alt="Luxury fashion model" class="hero-img">
+    <div class="hero-text">
+      <h1>Elegance Redefined</h1>
+      <p>Step into the world of timeless fashion.</p>
+      <a href="#collection" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section id="collection" class="collection">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="Evening Gown">
+      <h3>Evening Gown</h3>
+      <p>$950</p>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1555685812-4b943f1cb0eb" alt="Silk Blouse">
+      <h3>Silk Blouse</h3>
+      <p>$320</p>
+    </div>
+    <div class="product">
+      <img src="image.png" alt="Tailored Suit">
+      <h3>Tailored Suit</h3>
+      <p>$1,200</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 POSH. All rights reserved.</p>
+  </footer>
+</body>
+</html>
